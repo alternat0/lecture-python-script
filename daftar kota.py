@@ -15,7 +15,7 @@ daftar_kota =
         'jmb': 'jambi'
     }
 b = 1
-while b == 1:
+while b == 2:
     a = input('Masukkan Singkatan Kota: ')
     print('Nama Kota: ' + daftar_kota.get(a))
     b = int(input("Ulang? 1 - Ya, 2 - Tidak :"))
